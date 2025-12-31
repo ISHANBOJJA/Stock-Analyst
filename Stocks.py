@@ -8,7 +8,7 @@ from tkinter import messagebox
 
 print("Stock prices and recommendations are fetched from Yahoo Finance using the yfinance library. All Analysts are from places that include: Goldman Sachs, JPMorgan, Morgan Stanley, Morningstar, CFRA, UBS, Wells Fargo, BofA. A lower analyst rating is better.")#Disclaimers for users
 
-FILE = "Projects/Stocks/Stock_Preferences.txt"
+FILE = "Stock_Preferences.txt"
 
 root = tk.Tk()
 root.title("Stock Price Alert")
